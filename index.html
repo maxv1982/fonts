@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="style.css?ver150" />
+  <link rel="icon" href="fav-icon.png" type="image/png" />
+  <link href="fonts/muller/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title>Megapolis</title>
+   <!-- Подключение библиотеки jQuery -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Подключение jQuery плагина Masked Input -->
+  <script src="jquery.maskedinput.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img class="logo" src="img/icones/logo.png">
+      <div class="menu__icon">
+        <span></span>
+        <p class="icon__text">Меню</p>
+      </div>
+      <div class="header-top">
+        <div class="adress">
+          <img data-goto=".page-section_contact" href="#" class="icones menu__link" src="img/icones/icone-adress.png">
+          <span>г. Чебоксары, Вурнарское шоссе, д. 7, офис 404</span>
+        </div>
+        <div class="phone1">
+          <img class="icones" href="tel:+78352292525" title="Позвонить" class="img-title"
+            src="img/icones/icon-phone.png">
+          <a href="tel:+78352292525"><span>(8352) 29 25 25</span></a>
+        </div>
+        <div class="phone2">
+          <img class="icones" href="tel:+78352682525" title="Позвонить" src="img/icones/icon-phone.png">
+          <a href="tel:+78352682525"><span>(8352) 68 25 25</span></a>
+        </div>
+        <div class="mail">
+          <img class="icones" title="Написать" src="img/icones/icon-mail.png">
+          <a href="mailto:info@db.ru"><span>info@db21.ru</span></a>
+        </div>
+      </div>
+      <div class="menu-wrapper">
+        <nav class="menu-body">
+          <ul class="menu-list">
+            <li class="menu__link-mobile">
+              <a data-goto=".main" class="menu__link" href="#">Главная</a>
+            </li>
+            <li class="menu__link-mobile">
+              <a href="#">Аренда щитов</a>
+              <ul class="menu-sub__list menu3">
+                <li><a data-goto=".page-section_reklama_na_prizmotrone" class="menu__link" href="#">Реклама на
+                    призматроне</a></li>
+                <li><a data-goto=".page-section_reklama_na_bilborde" class="menu__link" href="#">Реклама на билборде</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__link-mobile">
+              <a href="#">Услуги</a>
+              <ul class="menu-sub__list menu2">
+                <li><a data-goto=".page-section_svetovie-koroba" class="menu__link" href="#">Световые короба</a></li>
+                <li><a data-goto=".page-section_obemnie-bukvi" class="menu__link" href="#">Объемные буквы</a></li>
+                <li><a data-goto=".page-section_reklama_na_transporte" class="menu__link" href="#">Реклама на
+                    транспорте</a></li>
+                <li><a data-goto=".page-section_banneri" class="menu__link" href="#">Баннеры</a></li>
+                <li><a data-goto=".page-section_nesvetovie_viveski" class="menu__link" href="#">Несветовые вывески</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__link-mobile"><a data-goto=".page-section_nashi-raboti" class="menu__link" href="#">Наши
+                работы</a></li>
+            <li class="menu__link-mobile"><a data-goto=".page-section_contact" class="menu__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="content">
+      <div class="none"></div>
+        <div class="call-center">
+          <a href="tel:+78352292525" title="Позвонить" >
+            <img class="main-call" src="img/icones/call3.png">
+          </a>
+          <img class="icon-close" src="img/icones/icon-close.png">
+        </div>
+      <img class="btn-top" src="img/icones/icon-top.png">
+      <div class="slider-wrapper">
+        <div class="header-title">
+          <img class="main" src="/img/icones/Megapolis.png">
+          <h3 class="slogan">Реклама в большом городе</h3>
+          <div class="block-title_header">
+            <div class="block-title">
+              <li>
+                <p>Согласование, разработка дизайна, изготовление и монтаж наружной рекламы</p>
+              </li>
+              <li>
+                <p>Размещение рекламы на призматроне</p>
+              </li>
+              <li>
+                <p>Размещение рекламы на билборде</p>
+              </li>
+            </div>
+            <div class="block-title_more">
+              <li>
+                <p>Объемные световые буквы</p>
+              </li>
+              <li>
+                <p>Световые короба (лайт-боксы)</p>
+              </li>
+              <li>
+                <p>Баннеры</p>
+              </li>
+              <li>
+                <p>Таблички</p>
+              </li>
+            </div>
+          </div>
+          <div class="button-form">
+            <span>Оставить заявку</span>
+            <div class="block-item"></div>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slider-line">
+            <img src="img/slider/slider_img1.jpg">
+            <img src="img/slider/slider_img2.jpeg">
+            <img src="img/slider/slider_img3.jpg">
+            <img src="img/slider/slider_img4.jpg">
+            <img src="img/slider/slider_img5.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <button class="btn btn-prev">PREV</button>
+        <button class="btn btn-next">NEXT</button>
+      </div>
+      <div class="page-section_reklama na prizmotrone page-section_reklama_na_prizmotrone">
+        <h2>Реклама на призматроне</h2>
+        <p class="describe_section">Существует разновидность билборда - призматрон, визуальная поверхность которого,
+          благодаря тому, что состоит из трёхгранных поворачивающихся призм, может изменяться. Через заданный промежуток
+          времени призмы поворачиваются вокруг своей оси, демонстрируя по очереди каждую из трёх граней. Таким образом,
+          одновременно на них можно разместить три разных сюжета.</p>
+        <div class="prizmatron-content">
+          <div class="prizmatron-item_block">
+            <div class="map-content">
+              <p><b>1. Предлагаем разместить вашу рекламу на нашем Призматроне (3 Vision) размерами 3х9 м (27 кв. м) в
+                  центре города Чебоксары.</b></p>
+              <p> Наш Призматрон находится по адресу: ул. К.Маркса, 52 корпус 9 возле главного входа гипермаркета
+                «Карусель». Рядом
+                находится ТРЦ Каскад, Сбербанк, бизнес центр «Первая площадка», Дом Торговли и тд.</p>
+            </div>
+            <div class="map">
+              <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5f1e0fe155ed1a04d1029efe766f635754d4a5934dc3483c5dd2cd56c9338616&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+          </div>
+          <div class="prizmatron-item">
+            <p>Благодаря огромной пешеходной и автомобильной проходимости</p>
+            <p><b>ВАША РЕКЛАМА ВСЕГДА БУДЕТ В ЦЕНТРЕ СОБЫТИЙ!</b></p>
+          </div>
+        </div>
+        <div class="block-img_prizmatron">
+          <img src="img/arenda/arenda-prizmatron1.jpg">
+          <img src="img/arenda/arenda-prizmatron2.jpg">
+        </div>
+      </div>
+      <div class="page-section_reklama_na_bilborde">
+        <h2>Реклама на билборде</h2>
+        <p class="describe_section">Реклама на щите (билборде) представляет собой щит большого размера (обычно 3х6
+          метра) для размещения наружной рекламы, устанавливаемый вдоль трасс, улиц и в других многолюдных местах. Щит
+          представляет собой раму, обитую листами оцинкованной стали или фанеры, покрытую атмосфероустойчивыми
+          составами, закреплённую на опоре.</p>
+        <p class="describe_section">Щиты можно классифицировать по различным признакам: количество сторон, несущих
+          полезную информацию (одно-, двух-, 3-сторонние, реже 4-сторонние).</p>
+        <p class="describe_section">Также у щита обычно две стороны:</p>
+        <li>А — обращена к нам лицом (в том случае, если рекламный щит справа)</li>
+        <li>Б — обращена к нам лицом (в том случае, если щит слева или посередине дороги)</li>
+        <p class="describe_section">Как правило, размещение на стороне «А» обходится рекламодателю дороже.</p>
+        <div class="prizmatron-content">
+          <div class="prizmatron-item_block">
+            <div class="map-content">
+              <p><b>2. Предлагаем разместить вашу рекламу на билборде размером 4х5 м (20 кв.м.) Место положения 647 км
+                  трасса Казань - Москва (АЗС Лукойл), Направление в сторону Чебоксары-Кугеси-Казань.</b></p>
+            </div>
+            <div class="map">
+              <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aee348813c217290a6a5c2e38e2ff6c28d1a36a55ff6b2496b2b84fc131ddfff7&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+          </div>
+          <div class="prizmatron-item">
+            <p>Благодаря большому автомобильному потоку</p>
+            <p><b>ВАША РЕКЛАМА ВСЕГДА БУДЕТ ПРИВЛЕКАТЬ ВНИМАНИЕ!</b></p>
+          </div>
+        </div>
+        <div class="block-img_bilbord">
+          <img src="img/arenda/arenda bilbord.jpg">
+        </div>
+      </div>
+      <div class="soveti">
+        <h4><b>СОВЕТЫ ЗАКАЗЧИКУ ПО ОФОРМЛЕНИЮ ВЫВЕСКИ:</b></h4>
+        <p class="describe_section">При разработке дизайна наружной рекламы следует придерживаться классического
+          направления по оформлению. Он поможет сделать ее более эффективной и запоминающейся.</p>
+        <p class="describe_section"><b>Лаконичность.</b> Чем проще дизайн, тем лучше. У пешеходов и водителей нет
+          времени на то, чтобы останавливаться у каждой вывески и внимательно ее рассматривать. На просмотр уйдет
+          максимум 3–5 секунд. Главный посыл, который несет реклама, должен быть изначально ясен и понятен.</p>
+        <p class="describe_section"><b>Слоган</b> следует выбирать креативный и запоминающийся и состоять из 3–5 простых
+          слов, чтобы человек смог прочесть его на ходу.</p>
+        <p class="describe_section"><b>Контакты.</b> Информация с адресом и телефоном компании нужно минимизировать.
+          Простой номер и короткий адрес – оптимальный вариант для вашей вывески.</p>
+        <p class="describe_section"><b>Пояснения.</b> Большое количество информации и пояснений идет во вред
+          эффективности наружной рекламы — одна из главных ошибок рекламодателей. Вместо того, чтобы рисовать схему
+          проезда или писать адрес, этаж и номер офиса компании, проще указать стрелкой на ее расположение.</p>
+        <p class="describe_section"><b>Изображения.</b> Внимание человека при просмотре вывески должно быть
+          сфокусировано максимум на 2–4 крупных объектах. Не стоит использовать картинки с множеством мелких деталей,
+          которые сложно рассмотреть.</p>
+        <p class="describe_section"><b>Шрифт.</b> Чтобы надписи на баннере были различимы, следует правильно подобрать
+          размер шрифта. Не забывайте о контрасте – буквы не должны сливаться с фоном вывески.</p>
+        <p class="describe_section"> На этапе разработки дизайнеры обычно изготавливают несколько вариантов макетов. Но
+          нужно выбрать один вариант. Поскольку разная реклама воспринимается по-разному, что помешает запоминанию
+          бренда.</p>
+      </div>
+      <div class="page-section_uslugi">
+        <h2>Наши услуги</h2>
+        <div class="block-header">
+          <div class="uslugi11">
+            <div class="block-uslugi">
+              <p class="uslugi-header-text"><b>Рекламная компания </b></p>
+            <img class="megapolis-uslugi" src="/img/icones/Megapolis.png">
+            </div>
+            <p class="nashi-uslugi"> является предприятием полного
+              цикла. В список
+              наших услуг входит:</p>
+          </div>
+          <ul class="list-uslugi">
+            <li>Замер (данная услуга предоставляется бесплатно)</li>
+            <li>Разработка дизайн-макета</li>
+            <li>Составление сметы</li>
+            <li>Согласование с городской администрацией (при необходимости)</li>
+            <li>Подбор оптимальных материалов (исходя из бюджета проекта)</li>
+            <li>Изготовление рекламной продукции</li>
+            <li>Доставка до места монтажа</li>
+            <li>Монтажные/демонтажные работы</li>
+          </ul>
+        </div>
+        <div class="block-img_uslugi">
+          <div class="img_card">
+            <img src="img/uslugi/uslugi1.png">
+            <p>Принимаем ваш звонок</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi2.png">
+            <p>Оформляем заявку</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi3.png">
+            <p>Делаем замер</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi4.png">
+            <p>Создаем дизайн-макет</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi5.png">
+            <p>Составляем смету</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi6.png">
+            <p>Утверждаем проект</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi7.png">
+            <p>Осуществляем доставку</p>
+          </div>
+          <div class="img_card">
+            <img src="img/uslugi/uslugi8.png">
+            <p>Производим монтаж</p>
+          </div>
+          <p class="block-footer"><b>Если у вас возникли вопросы мы всегда рады на них ответить!</b></p>
+        </div>
+        <p class="describe_section"><b>Что же такое наружная реклама?</b> В этой статье мы постараемся раскрыть суть
+          вопроса. Если брать в общем, то наружная реклама (наружка) - это графическая, текстовая, либо иная информация
+          рекламного характера, которая размещается на специальных временных или стационарных конструкциях,
+          расположенных на открытой местности, а также на внешних поверхностях зданий, сооружений. Цель которой донести
+          до потенциального клиента ту или иную информацию. </p>
+        <h4><b>Оновные виды наружной рекламы:</b></h4>
+      </div>
+      <div class="page-section_svetovie-koroba">
+        <h2>Лайтбоксы (световые короба)</h2>
+        <p class="describe_section"><b>Лайтбоксы (световые короба).</b> Устанавливаются как на фасаде здания, так и
+          внутри помещения. Могут быть как простой формы - прямоугольные или круглые, так и сложной формы. Внутри
+          размещается источник освещения - светодиодные модули или люминесцентные лампы (не рекомендуется в виду их
+          малой надежности и большой потребляемой мощности). На лицевой поверхности наносится информационное
+          изображение.</p>
+        <div class="block-img">
+          <img src="img/img/svetovie koroba1.jpg">
+          <img src="img/img/svetovie koroba2.jpg">
+        </div>
+      </div>
+      <div class="page-section_obemnie-bukvi">
+        <h2>Объемные буквы</h2>
+        <p class="describe_section"><b>Объемные буквы</b> Устанавливаются как на фасаде здания, так и внутри помещения.
+          Бывают световые и несветовые. Монтируются либо на металлическую раму, либо на основание, как правило
+          выполненное из алюминиевого композита (АКП).</p>
+        <p class="describe_section">
+          Примечание: В связи с последними изменениями по правилам согласования с городской рекламой объемные световые
+          буквы являются наиболее востребованными.
+        </p>
+        <div class="block-img">
+          <img src="img/img/obemnie bukvi1.jpg">
+          <img src="img/img/obemnie bukvi2.jpg">
+        </div>
+      </div>
+      <div class="page-section_reklama na transporte page-section_reklama_na_transporte">
+        <h2>Реклама на транспорте</h2>
+        <p class="describe_section"><b>Реклама на транспорте</b> Выполняется в виде аппликации из виниловых пленок серии
+          ORACAL 641 или широкоформатной печати. Также при необходимости делается ламинирование, которое защищает
+          наклейку от выгорания и влияния внешней среды. Из плюсов данного типа рекламы можно выделить мобильность.
+          Следует отметить, что эффективность данной рекламы достигается обклейкой не менее 10 авто.</p>
+        <div class="block-img">
+          <img src="img/img/reklama na transporte1.jpg">
+          <img src="img/img/reklama na transporte2.jpg">
+        </div>
+      </div>
+      <div class="page-section_banneri">
+        <h2>Баннеры</h2>
+        <p class="describe_section"><b>Баннеры</b> Плюсом данного вида рекламы является небольшая стоимость. Различают
+          два способа натяжки. На металлический каркас с помощью веревки через люверсы (применяется обычно при больших
+          размерах) и на деревянный каркас с помощью скоб.
+          Минус баннера является его недолговечность. Стоит заметить, что в городе официально повесить баннер крайне
+          затруднительно, потому что администрация города ужесточила требования к данному виду рекламы.</p>
+        <div class="block-img">
+          <img src="img/img/baneri1.jpg">
+          <img src="img/img/baneri2.jpg">
+        </div>
+      </div>
+      <div class="page-section_nesvetovie viveski page-section_nesvetovie_viveski" page-section_nesvetovie_viveski>
+        <h2>Несветовые вывески</h2>
+        <p class="describe_section"><b>Несветовые вывески</b> Как правило имеется основание, на которое наносится
+          рекламная информация. В качестве основания используются такие материалы, как: сотовый поликарбонат,
+          алюминиевый композит, ПВХ и другие материалы. Информация на основание переносится с помощью пленок ORACAL 641
+          или широкоформатной печати. Так же часто используют наружную подсветку с помощью светодиодных прожекторов на
+          выносных кронштейнах.</p>
+        <div class="block-img">
+          <img src="img/img/nesvetovie viveski1.jpg">
+          <img src="img/img/nesvetovie viveski2.jpg">
+        </div>
+      </div>
+      <div class="page-section_nashi-raboti">
+        <h2>Наши работы</h2>
+        <div class="our-work">
+          <div class="our-work-line">
+            <img src="img/slider our work/sliderW1.jpg">
+            <img src="img/slider our work/sliderW2.jpg">
+            <img src="img/slider our work/sliderW3.jpg">
+            <img src="img/slider our work/sliderW4.jpg">
+            <img src="img/slider our work/sliderW5.jpg">
+            <img src="img/slider our work/sliderW6.jpg">
+            <img src="img/slider our work/sliderW7.jpg">
+            <img src="img/slider our work/sliderW8.jpg">
+            <img src="img/slider our work/sliderW9.jpg">
+            <img src="img/slider our work/sliderW10.jpg">
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn btn-prev1">PREV</button>
+          <button class="btn btn-next1">NEXT</button>
+        </div>
+      </div>
+      <div class="page-section_contact">
+        <h2>Контакты</h2>
+        <div class="prizmatron-content">
+          <div class="prizmatron-item_block">
+            <div map-content>
+              <p class="text-contact"><b>Мегаполис</b> - размещение рекламы на билбордах и призматроне, производство
+                наружной рекламы</p>
+              <p class="text-contact"><b>Телефоны:</b> (8352) 29 25 25, (8352) 68 25 25</p>
+              <p class="text-contact"><b>Электронная почта:</b> info@db21.ru</p>
+              <p class="text-contact"><b>Адрес:</b> г. Чебоксары, Вурнарское шоссе, д. 7, офис 404</p>
+              <p class="text-contact"><b>График работы:</b> ПН - ПТ: 9.00 - 18.00</p>
+            </div>
+            <div class="map">
+              <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7d65ca466e4e8f9f34aaa00e018c997376e1020f592712d6acde011d8127e4ef&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-form">
+        <form id="feedback-form" class="mainform" action="mail.php" method="POST">
+          <h3 class="form-title">Online заявка</h3>
+          <img class="icon-close_form" src="img/icones/icon-close.png" />
+          <p class="name">
+            <label for="name">Ваше имя*</label>
+            <input type="text" name="user_name" placeholder="Например, Иван" />
+          </p>
+          <p class="fone-number">
+            <label for="name">Телефон*</label>
+            <input type="text" id="phone" name="user_phone" placeholder="+7(999) 999-99-99" />
+            <script>
+              //Код jQuery, установливающий маску для ввода телефона элементу input
+              //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+              $(function () {
+                //2. Получить элемент, к которому необходимо добавить маску
+                $("#phone").mask("+7(999) 999-99-99");
+              });
+            </script>
+          </p>
+          <p class="email">
+            <label for="name">Электронная почта</label>
+            <input type="text" id="user_email" name="user_email" placeholder="mail@mail.ru" />
+          </p>
+          <p class="msg">
+            <label for="name">Ваше сообщение*</label>
+            <textarea name="user_text" class="msg-form"></textarea>
+          </p>
+          <div class="form-send">
+            <p>*Поля обязательные для заполнения</p>
+            <p class="send">
+              <input type="submit" value="Отправить" />
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="maxwebsite megapolis-footer">
+          <img class="logo-footer" src="img/icones/logo.png">
+          <div class="block-info">
+            <p>Изготовление и производство</p>
+            <p>наружной рекламы</p>
+          </div>
+        </div>
+        <div class="mail mail-footer">
+          <img class="icones" title="Написать" src="img/icones/icon-mail.png">
+          <a href="mailto:info@db.ru"><span>info@db21.ru</span></a>
+        </div>
+        <div class="button-form btn-footer">
+          <span>Оставить заявку</span>
+          <div class="block-item"></div>
+        </div>
+        <div class="maxwebsite">
+          <p class="maxwebsite-text">Caйт создан при поддержке</p>
+          <img class="logo12" src="img/icones/logo12.png">
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
